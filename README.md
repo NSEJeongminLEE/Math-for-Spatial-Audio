@@ -13,7 +13,7 @@ As a student and a soldier currently serving in the military, I am committed to 
 ## 📂 Repository Structure
 
 ```text
-.
+
 ├── notes/               # Conceptual summaries and reflections
 │   ├── 01-vectors.md    # Ch 1: The Essence of Vectors
 │   └── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
@@ -21,9 +21,31 @@ As a student and a soldier currently serving in the military, I am committed to 
 └── implementation/      # (Upcoming) Python/NumPy implementations
 '''
 
-Chapter,Title,Status,Key Takeaways
-01,The Essence of Vectors,✅ Complete,"Physics vs CS view, Scaling"
-02,Span and Basis,✅ Complete,"Linear Combinations, Span, and Basis"
-03,Linear Transformations,⏳ Upcoming,Matrix-vector multiplication
-04,Matrix Multiplication,⏳ Upcoming,Linear transformations in succession
-05,Determinant,⏳ Upcoming,Area/Volume change factor
+## 📚 Curriculum & Progress
+
+Inspired by [3Blue1Brown's Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) and facilitated by Gemini.
+
+- [x] **01. The Essence of Vectors**
+  - **Status:** Complete ✅
+  - **Key Takeaways:** Physics vs CS view, Scaling, Fundamental unit of Linear Algebra.
+- [x] **02. Span and Basis**
+  - **Status:** Complete ✅
+  - **Key Takeaways:** Linear Combinations, Span, Basis, and Independence.
+- [ ] **03. Linear Transformations**
+  - **Status:** Upcoming ⏳
+  - **Key Takeaways:** Understanding matrix-vector multiplication as a transformation.
+- [ ] **04. Matrix Multiplication**
+  - **Status:** Upcoming ⏳
+  - **Key Takeaways:** Composing multiple linear transformations.
+- [ ] **05. Determinant**
+  - **Status:** Upcoming ⏳
+  - **Key Takeaways:** Area and Volume change factor in space.
+
+---
+
+## 🛠 Tools & Tech
+
+* **Core Concepts:** Linear Algebra, DSP Foundations
+* **AI Tutor:** Google Gemini (Interactive Tutoring)
+* **Documentation:** Markdown, $\LaTeX$
+* **Future Stack:** Python, NumPy, SciPy
