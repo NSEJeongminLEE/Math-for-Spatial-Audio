@@ -18,7 +18,7 @@ As a student and a soldier currently serving in the military, I am committed to 
 ├── exercises/           # Practice problems and quiz results
 └── implementation/      # (Upcoming) Python/NumPy implementations
 
-📚 Curriculum & Progress
+## 📚 Curriculum & Progress
 
 Inspired by 3Blue1Brown's Essence of Linear Algebra series and facilitated by interactive tutoring with Gemini (Google AI).
 
@@ -70,7 +70,7 @@ Determinant
 
 Area/Volume change factor
 
-🛠 Tools & Tech
+## 🛠 Tools & Tech
 
 Concepts: Linear Algebra, DSP Foundations
 
