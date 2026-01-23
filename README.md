@@ -19,7 +19,8 @@ As a student and a soldier currently serving in the military, I am committed to 
 │   └── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
 ├── exercises/           # Practice problems and quiz results
 └── implementation/      # (Upcoming) Python/NumPy implementations
-'''
+
+---
 
 ## 📚 Curriculum & Progress
 
