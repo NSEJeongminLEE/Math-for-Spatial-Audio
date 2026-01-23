@@ -8,6 +8,7 @@ This repository is a dedicated log of my journey to master the mathematical foun
 
 As a student and a soldier currently serving in the military, I am committed to daily consistent growth. I believe that a deep understanding of **Linear Algebra** is the bedrock of Digital Signal Processing (DSP) and Spatial Audio modeling.
 
+---
 
 ## 📂 Repository Structure
 
