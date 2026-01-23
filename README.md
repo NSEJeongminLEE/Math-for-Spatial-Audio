@@ -13,7 +13,7 @@ As a student and a soldier currently serving in the military, I am committed to 
 ## 📂 Repository Structure
 
 ```text
-.
+
 ├── notes/               # Conceptual summaries and reflections
 │   ├── 01-vectors.md    # Ch 1: The Essence of Vectors
 │   └── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
