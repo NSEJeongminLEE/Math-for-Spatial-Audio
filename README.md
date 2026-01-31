@@ -19,7 +19,7 @@ As a student and a soldier currently serving in the military, I am committed to 
 │   ├── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
 │   ├── 03-transform.md  # Ch 3: Linear Transformations
 │   ├── 04-matrix.md     # Ch 4: Matrix Multiplication
-│   └── 05-determinant.md# Ch 5: Determinant
+│   └── 05-matrix.md     # Ch 5: Three-dimensional linear transformations
 ├── exercises/           # Practice problems and quiz results
 ├── questions/           
 │   └── audio-math-qna.md# Deep dives into Audio-Linear Algebra
