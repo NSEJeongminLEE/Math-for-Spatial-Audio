@@ -13,8 +13,14 @@ As a student and a soldier currently serving in the military, I am committed to 
 ## 📂 Repository Structure
 
 ```text
+.
 ├── notes/               # Conceptual summaries and reflections
 │   ├── 01-vectors.md    # Ch 1: The Essence of Vectors
-│   └── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
+│   ├── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
+│   ├── 03-transform.md  # Ch 3: Linear Transformations
+│   ├── 04-matrix.md     # Ch 4: Matrix Multiplication
+│   └── 05-determinant.md# Ch 5: Determinant
 ├── exercises/           # Practice problems and quiz results
+├── questions/           
+│   └── audio-math-qna.md# [NEW] Deep dives into Audio-Linear Algebra
 └── implementation/      # (Upcoming) Python/NumPy implementations
