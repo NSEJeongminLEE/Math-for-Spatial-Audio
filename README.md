@@ -22,5 +22,5 @@ As a student and a soldier currently serving in the military, I am committed to 
 │   └── 05-determinant.md# Ch 5: Determinant
 ├── exercises/           # Practice problems and quiz results
 ├── questions/           
-│   └── audio-math-qna.md# [NEW] Deep dives into Audio-Linear Algebra
+│   └── audio-math-qna.md# Deep dives into Audio-Linear Algebra
 └── implementation/      # (Upcoming) Python/NumPy implementations
