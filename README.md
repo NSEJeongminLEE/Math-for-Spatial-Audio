@@ -14,7 +14,6 @@ As a student and a soldier currently serving in the military, I am committed to 
 
 ```text
 
-.
 ├── notes/               # Conceptual summaries and reflections
 │   ├── 01-vectors.md    # Ch 1: Vectors
 │   ├── 02-span-basis.md # Ch 2: Span & Basis
