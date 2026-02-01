@@ -13,7 +13,6 @@ As a student and a soldier currently serving in the military, I am committed to 
 ## 📂 Repository Structure
 
 ```text
-
 ├── notes/               # Conceptual summaries and reflections
 │   ├── 01-vectors.md    # Ch 1: Vectors
 │   ├── 02-span-basis.md # Ch 2: Span & Basis
@@ -25,3 +24,5 @@ As a student and a soldier currently serving in the military, I am committed to 
 ├── questions/           
 │   └── audio-math-qna.md# Deep dives into Audio-Linear Algebra
 └── implementation/      # (Upcoming) Python/NumPy implementations
+
+---
