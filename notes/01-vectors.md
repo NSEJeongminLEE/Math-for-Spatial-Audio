@@ -1,7 +1,7 @@
 # Ch 1: The Essence of Vectors
 
 > **Source:** [3Blue1Brown - Essence of Linear Algebra (Chapter 1)](https://www.youtube.com/watch?v=fNk_zzaMoSs)  
-> **Date:** 2026-02-01
+> **Date:** 2026-01-21
 
 ## 1. Three Perspectives on Vectors
 
