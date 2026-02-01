@@ -14,12 +14,14 @@ As a student and a soldier currently serving in the military, I am committed to 
 
 ```text
 
+.
 ├── notes/               # Conceptual summaries and reflections
-│   ├── 01-vectors.md    # Ch 1: The Essence of Vectors
-│   ├── 02-span-basis.md # Ch 2: Linear Combinations, Span, and Basis
-│   ├── 03-transform.md  # Ch 3: Linear Transformations
+│   ├── 01-vectors.md    # Ch 1: Vectors
+│   ├── 02-span-basis.md # Ch 2: Span & Basis
+│   ├── 03-transform.md  # Ch 3: Linear Transformations (2D)
 │   ├── 04-matrix.md     # Ch 4: Matrix Multiplication
-│   └── 05-matrix.md     # Ch 5: Three-dimensional linear transformations
+│   ├── 05-3d-transform.md # Ch 5: 3D Linear Transformations
+│   └── 06-determinant.md  # Ch 6: The Determinant
 ├── exercises/           # Practice problems and quiz results
 ├── questions/           
 │   └── audio-math-qna.md# Deep dives into Audio-Linear Algebra
