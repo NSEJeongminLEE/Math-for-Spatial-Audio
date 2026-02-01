@@ -18,9 +18,13 @@ As a student and a soldier currently serving in the military, I am committed to 
 │   ├── 02-span-basis.md # Ch 2: Span & Basis
 │   ├── 03-transform.md  # Ch 3: Linear Transformations (2D)
 │   ├── 04-matrix.md     # Ch 4: Matrix Multiplication
-│   ├── 05-3d-transform.md # Ch 5: 3D Linear Transformations
-│   └── 06-determinant.md  # Ch 6: The Determinant
+│   └── 05-3d-transform.md # Ch 5: 3D Linear Transformations
 ├── exercises/           # Practice problems and quiz results
-├── questions/           
+│   ├── 01-vectors-quiz.md       # Ch 1: Vectors - Practice & Solutions
+│   ├── 02-span-basis-quiz.md    # Ch 2: Span & Basis - Practice & Solutions
+│   ├── 03-transform-quiz.md     # Ch 3: Linear Transformations - Practice & Solutions
+│   ├── 04-matrix-quiz.md        # Ch 4: Matrix Multiplication - Practice & Solutions
+│   └── 05-3d-transform-quiz.md  # Ch 5: 3D Transformations - Practice & Solutions
+├── questions/           # Log of deep-dive questions and "Whys"
 │   └── audio-math-qna.md# Deep dives into Audio-Linear Algebra
 └── implementation/      # (Upcoming) Python/NumPy implementations
