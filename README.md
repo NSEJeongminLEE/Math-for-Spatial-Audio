@@ -24,5 +24,3 @@ As a student and a soldier currently serving in the military, I am committed to 
 ├── questions/           
 │   └── audio-math-qna.md# Deep dives into Audio-Linear Algebra
 └── implementation/      # (Upcoming) Python/NumPy implementations
-
----
