@@ -1,4 +1,4 @@
-## 🔬 Case Study: Why did the Ch 5 Solution Matrix collapse?
+## 🔬 1. Case Study: Why did the Ch 5 Solution Matrix collapse?
 
 > **Observation:** > 5강(3D Linear Transformations) 문제 풀이 중 도출된 정답 행렬(Solution Matrix)을 Matrix Visualizer에 넣어봤는데, 3-D가 아니라 **2-D Plane으로 납작해지는 현상**이 일어나서 궁금증이 생기게 되어서 Gemini에게 물어봤고, 아래와 같은 내용을 깨달았다.
 > 
@@ -46,7 +46,7 @@ What if such parameters were set in a mixing console or a spatial audio engine?
 <hr>
 <br>
 
-## 🔬 Deep Dive: Algebraic Proof vs. Geometric Intuition
+## 🔬 2. Deep Dive: Algebraic Proof vs. Geometric Intuition
 
 > **Observation:** > 6강 8번 문제 풀이를 보았는데, 나는 수식적으로 증명을 했는데 Gemini는 기하학적 직관을 통해 문제를 풀어냈었다. 그래서 내 수식적 증명 풀이가 맞는지 다시 한번 확인해보았다.
 > 
