@@ -79,3 +79,63 @@ To build a successful career in Spatial Audio or DSP, mastering the seamless tra
 * **When Debugging (Intuitive):** If the output audio suddenly drops in volume, you don't calculate formulas on paper. Your geometric intuition kicks in immediately: *"Ah, the sound got quieter. I must have accidentally multiplied the inverse of a matrix that originally amplified the signal by 2x!"*
 
 > **Conclusion:** The algebraic proof guarantees **accuracy**, while the geometric intuition provides **context**. Combining both is the hallmark of a top-tier engineer.
+
+<br>
+<hr>
+<br>
+
+## 🔬 3. Deep Dive: Geometric Intuition & Proofs of the Determinant
+
+> **Overview:** Determinant에 관한 수식들이 기하학적으로 잘 와닿지 않아서 Gemini에게 질문을 통해 알게된 내용들이다.
+> This document explores the "why" behind two fundamental properties of determinants using geometric intuition rather than complex algebraic derivations.
+
+### 1. Why is <img src="https://latex.codecogs.com/svg.image?\det(AB)=\det(A)\cdot\det(B)" align="center" height="15"/>?
+
+Instead of a rigorous algebraic proof, this equation becomes self-evident when viewed through the lens of **"Scaling"**.
+
+#### 🖼 Geometric Interpretation (The "Copier" Analogy)
+Think of the determinant as the "scaling factor of space."
+
+* **Step 1: Transformation B (1st Scaling)**
+  Imagine putting an image into "Copier B". The output size is scaled by a factor of <img src="https://latex.codecogs.com/svg.image?\det(B)" align="center" height="15"/>.
+  *(Example: <img src="https://latex.codecogs.com/svg.image?\det(B)=2" align="center" height="15"/> -> The area doubles).*
+
+* **Step 2: Transformation A (2nd Scaling)**
+  Take the result from Step 1 and put it into "Copier A". The result is further scaled by a factor of <img src="https://latex.codecogs.com/svg.image?\det(A)" align="center" height="15"/>.
+  *(Example: <img src="https://latex.codecogs.com/svg.image?\det(A)=3" align="center" height="15"/> -> The area triples).*
+
+* **Result: Composite Transformation AB (Consecutive Scaling)**
+  How much has the original image expanded in total? Naturally, it is 2 x 3 = 6 times the original size.
+  Therefore, **Final Scaling Factor** <img src="https://latex.codecogs.com/svg.image?\det(AB)" align="center" height="15"/> = 1st Factor <img src="https://latex.codecogs.com/svg.image?\det(B)" align="center" height="15"/> <img src="https://latex.codecogs.com/svg.image?\times" align="center" height="10"/> 2nd Factor <img src="https://latex.codecogs.com/svg.image?\det(A)" align="center" height="15"/>.
+
+> **Conclusion:** When applying linear transformations consecutively, the total rate of change in volume (or area) is the product of the individual rates of change.
+
+---
+
+### 2. Why does the determinant equal the area of a parallelogram?
+
+We can prove this by observing the "Transformation of the Unit Square," an approach famously used by 3Blue1Brown.
+
+#### 💡 Geometric Proof (Transformation View)
+
+
+* **Start: The Unit Square**
+  Consider the square formed by the standard basis vectors <img src="https://latex.codecogs.com/svg.image?\hat{i}=\begin{bmatrix}1\\0\end{bmatrix}" align="center" height="25"/> and <img src="https://latex.codecogs.com/svg.image?\hat{j}=\begin{bmatrix}0\\1\end{bmatrix}" align="center" height="25"/>.
+  Since the width is 1 and the height is 1, the original area is 1.
+
+* **Transformation: Matrix Action**
+  Define a matrix <img src="https://latex.codecogs.com/svg.image?M=\begin{bmatrix}a&b\\c&d\end{bmatrix}" align="center" height="25"/> with columns <img src="https://latex.codecogs.com/svg.image?\vec{v}=\begin{bmatrix}a\\c\end{bmatrix}" align="center" height="25"/> and <img src="https://latex.codecogs.com/svg.image?\vec{w}=\begin{bmatrix}b\\d\end{bmatrix}" align="center" height="25"/>.
+  This matrix <img src="https://latex.codecogs.com/svg.image?M" align="center" height="15"/> moves the basis vectors:
+  * <img src="https://latex.codecogs.com/svg.image?\hat{i}\longrightarrow\vec{v}" align="center" height="15"/>
+  * <img src="https://latex.codecogs.com/svg.image?\hat{j}\longrightarrow\vec{w}" align="center" height="15"/>
+
+* **Deformation: Birth of the Parallelogram**
+  Due to the properties of linear transformations (grid lines remain parallel and evenly spaced), the "Unit Square" formed by <img src="https://latex.codecogs.com/svg.image?\hat{i},\hat{j}" align="center" height="18"/> transforms into a "Parallelogram" formed by <img src="https://latex.codecogs.com/svg.image?\vec{v},\vec{w}" align="center" height="15"/>.
+
+* **Conclusion: Change in Area = Determinant**
+  The definition of the determinant (<img src="https://latex.codecogs.com/svg.image?\det(M)" align="center" height="15"/>) is "how much the unit area scales after transformation."
+  Therefore:
+  <div align="center">
+    <img src="https://latex.codecogs.com/svg.image?\text{New&space;Area}=\text{Original&space;Area}\times|\text{Scaling&space;Factor}|" alt="New Area Equation" />
+    <br>
+    <img src="https://latex.codecogs.com/svg.image?\text{
